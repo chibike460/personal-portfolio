@@ -1,88 +1,79 @@
 *{
     box-sizing: border-box;
-}
-body{
-    background: url("/media/background-image.jpg");
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: relative;
-    background:linear-gradient(black, purple);
-}
-   
-    
-
-header{
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    margin: 2rem;
-    
-}
-h1{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-    padding: 5px;
+    padding: 0;
+    margin: 0;
 
 }
 
-#description{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 100;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    color: white;
+.header{
+     background-color: rgb(205, 78, 78);
+
+     padding: 20px;
 
 }
-.form-section{
-    
-    background-color:rgba(0, 0, 0, 0.5);
-
-    width: 700px;
-
-    margin-left: auto;
-
-    margin-right: auto;
-
-    height: auto;
-}
-
-.label-wrapper{
+ul {
     display: flex;
 
-    flex-direction: column;
+    flex-direction: row;
 
-    justify-content: space-between;
+    justify-content: flex-end;
+
+    align-items: flex-end;
+
+    width: 100%;
+}
+
+ul li{
+
+    margin-right: 2rem;
+
+    display: inline-block;
+}
+
+.nav-link{
+    text-decoration: none;
 
     color: white;
+    
+    font-size: 20px;
 
-    font-size: 18px;
-
-    padding: 30px;
-
-    font-family: Arial, Helvetica, sans-serif;
 
 }
+a:hover{
+    background-color: black;
+}
 
-input{
-    height: 40px;
+#welcome-section{
+     background-color: rgb(27, 25, 25);
 
-    border-radius: 5px;
+    height: 90vh;
 
-    font-size: 14px;
+    padding: 20px;
+}
 
-    padding: 10px;
+h1 {
+    color: white;
+
+     font-size: 40px;
+
+     text-align: center;
+
+     margin-top:15rem;
+
     
 }
-#dropdown{
-    height: 40px;
 
-    font-size: 14px;
+p{
+    color:red;
 
-    padding: 10px;
+     font-size: 25px;
+
+     text-align: center;
+
+     font-style: italic;
+
+     margin-top: 1rem;
+
+
+    
 }
-
-
-
