@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url("/media/background-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    background:linear-gradient(black, purple);
+}
+   
+    
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin: 2rem;
+    
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding: 5px;
+
+}
+
+#description{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+
+}
+.form-section{
+    
+    background-color:rgba(0, 0, 0, 0.5);
+
+    width: 700px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    height: auto;
+}
+
+.label-wrapper{
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    color: white;
+
+    font-size: 18px;
+
+    padding: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input{
+    height: 40px;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+
+    padding: 10px;
+    
+}
+#dropdown{
+    height: 40px;
+
+    font-size: 14px;
+
+    padding: 10px;
+}
+
+
+
