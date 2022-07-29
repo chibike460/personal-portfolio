@@ -167,10 +167,25 @@ img{
     background-color: #303841;
 }
 article {
-    text-align: center;
     padding-top: 3.5rem;
-    color: white;
+}
+article h2 {
+    font-size: 4rem;
 }
 article p {
     color: white;
+}
+#third-section div {
+    padding-top: 3rem;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+#third-section div a {
+    margin: 2rem;
+    color: white
+}
+.connect {
+    height: 82%;
+    border-bottom: 2px solid red;
 }
