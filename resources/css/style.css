@@ -162,3 +162,13 @@ img{
 .project:hover .content1::before {
     content: "< ";
 }
+#third-section {
+    height: 90vh;
+    background-color: #303841;
+}
+article {
+    padding-top: 3.5rem;
+}
+article p {
+    color: white;
+}
