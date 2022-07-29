@@ -167,7 +167,9 @@ img{
     background-color: #303841;
 }
 article {
+    text-align: center;
     padding-top: 3.5rem;
+    color: white;
 }
 article p {
     color: white;
