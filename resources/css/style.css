@@ -151,3 +151,14 @@ img{
 .project a{
     text-decoration: none;
 }
+.project:hover .content1::after {
+    content: " / >";
+}
+.project:hover .content1::after, .project:hover .content1::before {
+    font-weight: 900;
+    color:rgb(205, 78, 78);
+    font-style: italic;
+}
+.project:hover .content1::before {
+    content: "< ";
+}
